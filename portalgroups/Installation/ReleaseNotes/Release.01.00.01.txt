@@ -1,0 +1,33 @@
+﻿<h3>Site Group Editor</h3>
+<p class="Contributor">
+	Stefan Cullmann <br />
+	<a href="mailto:stefan.cullmann@gmail.com">stefan.cullmann@gmail.com</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the Site Group Editor module</h3>
+	<p>SiteGroups allows sharing of users, roles and content between several sites 
+	   in one installation of the DNN Platform. This is the missing <b>Editor</b>!</p>
+    <p>
+	Site Groups (or PortalGroups within the DNN API)  have been introduced to DotNetNuke 6.1, 
+	only the Professional Edition came with a editor out of the box. 
+	The sharing features are part of the DNN platform, this module only controls their settings.
+	</p>
+	<p>
+	Release 1.0.1 <br/>
+	Changes:
+	<ul>
+	<li>
+		Refactored Javascript
+	</li>
+	<li>
+		Clean Up code
+	</li>
+	<li>
+		Requires now Host Permissions!
+	</li>
+	</ul>
+	<p>
+	You should add a page <b>Site Groups Editor</b> with in the super user/ host menu and add the module. Afterwards you should edit the module in extensions, set it as premium and remove it from any existing site.
+	</p>
+</div>

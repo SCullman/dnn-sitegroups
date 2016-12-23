@@ -1,0 +1,57 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="dnnEurope.portalgroups" type="Module" version="01.00.01">
+      <friendlyName>Site Group Editor</friendlyName>
+      <description>Site Group Editor</description>
+      <iconFile>DesktopModules\dnnEurope\portalgroups\BBxxx1.png</iconFile>
+      <owner>
+        <name>Stefan Cullmann</name>
+        <organization>dnn connect</organization>
+        <url>http://dnn-connect.org</url>
+        <email>stefan.cullmann@gmail.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="Release.01.00.01.txt"></releaseNotes>
+      <azureCompatible>True</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">07.04.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>dnnEurope.portalgroups</moduleName>
+            <foldername>dnnEurope\portalgroups</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>Site Group Editor</friendlyName>
+                <defaultCacheTime>-1</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/dnnEurope\portalgroups/view.ascx</controlSrc>
+                    <supportsPartialRendering>false</supportsPartialRendering>
+                    <supportsPopUps>false</supportsPopUps>
+                    <controlTitle />
+                    <controlType>Host</controlType>
+                    <helpUrl />
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\dnnEurope\portalgroups</basePath>
+            <resourceFile>
+              <name>resources.zip</name>
+              <sourceFileName>resources.zip</sourceFileName>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
